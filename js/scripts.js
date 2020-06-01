@@ -13,22 +13,15 @@
 // const result = multiply(9, 4);
 //   alert(result);
 
-const age = function(whatAge) {
-  prompt(whatAge);
-};
+// const age = function(whatAge) {
+//   prompt(whatAge);
+//   return whatAge;
+// };
 
-const name = function(whatName) {
-  prompt(whatName);
-};
+const name = prompt("What is your name?");
 
-const food = function(favFood) {
-  prompt(favFood);
-};
+const age = prompt("What is your age?");
 
-age("what your age");
+const food = prompt("What is your favorite food?")
 
-name("what is your name");
-
-food("what is your favorite food");
-
-alert("Hello " + name + "you are " + age + "years old and your favorite food is " + food);
+alert("Hello " + name + ", you are " + age + "and your favorite food is " + food);
